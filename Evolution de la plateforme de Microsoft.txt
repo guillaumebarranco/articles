@@ -1,0 +1,86 @@
+# L'évolution de la plateforme de développement Microsoft
+
+On m'a récemment demandé ce que je pensais de Microsoft aujourd'hui, en particulier des services proposés aux développeurs (après plusieurs années passablement compliquées sur cette plateforme).
+
+J'ai pensé que la réponse, un peu complexe, pouvait mériter un billet de blog pour opposer l'ancien et le "nouveau" Microsoft. Ayant toujours développé sur Windows (parfois sur Linux) je trouve d'autant plus intéressant d'avoir pu suivre cette évolution des outils au service des mes développements.
+
+## Replaçons le contexte
+
+Microsoft, qu'est-ce que c'est exactement ?
+
+Avant tout, c'est le leader mondial des systèmes d'exploitations pour les ordinateurs avec Windows et ce depuis 30 ans. En Avril 2017, 84% des ordinateurs en moyenne fonctionnent sous Windows. Il s'agit donc de l'OS le plus utilisé sur la planète en format Desktop, tout simplement. Notons toutefois que Windows est très loin de faire l'uninamité chez les développeurs (nous reviendrons aux différentes raisons par la suite).
+
+Source : http://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-201604-201704-bar
+
+Ensuite Microsoft c'est également Internet Explorer : Grand vainqueur de la "guerre des navigateurs" de la fin des années 90 face à Netscape Navigator (https://fr.wikipedia.org/wiki/Netscape_Navigator). Navigateur livré par défaut avec Windows, Internet Explorer atteint un pic d'utilisation de 95% en 2003, autant dire le quasi monopole. Ses parts de marché diminuent cependant de manière constante depuis lors aux profits de Mozilla Firefox et Google Chrome.
+
+Dans le monde du téléphone mobile, Microsoft a également eu un passage plutôt fugitif dans l'univers mobile avec le Windows Phone. Lancé en 2010, ce système d'exploitation est devenue le 3ème plus utilisé derrière iOs et Android, sans cependant jamais vraiment exploser. Aujourd'hui, Windows Phone représente moins de 5% des téléphones utilisés.
+
+Enfin et dernier point qui nous intéresse, Microsoft a également créé ASP.NET, ainsi le framework .NET et son univers, notamment le langage C#. Ces technologies sont encore aujourd'hui utilisées par beaucoup de développeurs à travers le monde. Il est notable également que Microsoft est à l'origine du langage open-source Typescript qui nous intéressera particulièrement par la suite.
+
+
+## Les mauvais points
+
+### Un monde fermé
+
+A travers .NET, ASP.NET, SQL Server, la suite Office et de nombreux autres exemples, il est difficile de dire que Microsoft a toujours été ouvert au monde de l'open-source. Les formats et logiciels propriétaires développés par l'entreprise ne manquent pas, et apportent l'image très contraire à l'accueillant et open-source Linux depuis toujours. Il a pu être difficile pour un grand nombre de développeurs d'accéder à la plateforme Microsoft étant donné cette "fermeture". Utiliser des technologies .NET ou C# étant une réelle marque d'adhésion à la plateforme.
+
+On peut comparer cette "autarcie" à son principal concurrent Apple, qui a également eu, et a toujours, beaucoup de mal à ouvrir ses technologies. On peut y retrouver un exemple très simple pour le développement d'une application iOs qui nécessite sans équivoque un Mac Book pour être compilée.
+
+### Plusieurs déceptions
+
+Windows Phone => Flop (store pauvre) => Coût pour les développeurs et perte de confiance
+
+- Terminal (très utilisé par les développeurs)
+=> Référence : Terminal système Unix, package manager disponible, gestion des dépendances => très simple
+=> Sur Windows au contraire, il faut télécharger les logiciels régulièrement, trouver les bons .exe, ne pas obtenir de virus (moins fréquent récemment mais c'était encore la guerre il y a quelques années)
+
+- Internet Explorer => Très mauvaise réputation chez les devs
+=> A gagné contre Netscape
+=> Rattrapé et largement dépassé par Firefox et Chrome
+=> Effondrement des compatibilités
+=> Certaines entreprises doublaient le prix d'une application lorsque le client demandait une compatibilité IE
+=> La plupart des clients utilisent IE car ils ont Windows
+
+
+
+## Les bons points
+
+- Visual Studio Code => Editeur de texte (jamais le fort de Microsoft)
+=> Excellent éditeur avec Sublime Text, Atom, PHPStorm
+=> Bon terminal etc
+
+- Typescript
+=> Poussé par Microsoft
+=> Utilisé par Angular 2 développé par Google en Open Source
+=> Ajout de facilité à la gestion de l'objet, des classes, et essentiellement du typage entrée/sortie
+=> Attractif
+
+- Chocolatey
+=> Sous forme de apt-get
+=> Bibliothèque bien fournie
+=> En utilisation depuis plusieurs années, fonctionne bien (notamment pour le android sdk)
+=> Fait par la communauté
+=> Exemple récent avec Nativescript (directement instalable via chocolatey sur leur site web)
+
+- Terminal bien plus puissant avec Windows 10
+=> Essentiel aujourd'hui aussi bien dans le front que le back
+
+- Microsoft Edge
+=> Egal à Chrome et Firefox (à peu près)
+=> Très bonne compatibilité, parfois plus que ses deux concurrents
+=> Du jamais vu avec IE
+
+- Bon mariage avec Android
+=> OS de la majorité des téléphones
+=> Facile d'installer Android, ADB, de travailler avec sous Windows
+
+
+
+
+
+## Conclusion
+
+Evolution très prometteuse avec tous ces outils et nouveautés qui viennent ainsi que l'ouverture de Microsoft à l'open source
+
+
